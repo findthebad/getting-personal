@@ -31,3 +31,6 @@ What advanced persistent threat (APT) has been discussed as being the group behi
 - [Kibana Query Language](https://www.elastic.co/guide/en/kibana/current/kuery-query.html)
 - [MITRE - ATT&CK](https://attack.mitre.org/)
 - [MITRE - ATT&CK - Scheduled Task/Job](https://attack.mitre.org/techniques/T1053/)
+
+### Solution
+Available [here](https://findthebad.com/getting-personal/).
