@@ -18,7 +18,7 @@ This lab continues with the use of Kibana for identifying and investigating sign
 1) What is the name of the malicious file that has executed?
 2) What did the associated process do?  Were there any other malicious indicators?
 3) What was the parent process that launched the malicious image?  What does this tell you?  Are there other indicators that confirm that?
-4) What created the ddpp file?  Did it create or delete any other files?
+4) What process created the ddpp file?  Did it create or delete any other files?
 5) What appears to be process that started all of this activity, when did it occur, on what computer and by what user? 
 
 Bonus:
@@ -26,6 +26,8 @@ What advanced persistent threat (APT) has been discussed as being the group behi
 
 ### Useful Links
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
-- [Sigma](https://github.com/Neo23x0/sigma)
 - [Sysmon Events List](https://docs.microsoft.com/en-ca/sysinternals/downloads/sysmon#events)
+- [Sysmon Event ID 23](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-23-filedelete-a-file-delete-was-detected)
 - [Kibana Query Language](https://www.elastic.co/guide/en/kibana/current/kuery-query.html)
+- [MITRE - ATT&CK](https://attack.mitre.org/)
+- [MITRE - ATT&CK - Scheduled Task/Job](https://attack.mitre.org/techniques/T1053/)
